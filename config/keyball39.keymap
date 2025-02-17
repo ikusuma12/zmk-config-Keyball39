@@ -59,7 +59,21 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        sleep {
+            bindings = <&to 6>;
+            key-positions = <30 28 38>;
+            layers = <0>;
+        };
+
+        unsleep {
+            bindings = <&to 0>;
+            key-positions = <30 28 38>;
+            layers = <6>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
