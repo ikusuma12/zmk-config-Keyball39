@@ -279,3 +279,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+combos:
+- p: [30, 28, 38]
+  k: {t: sleep, h: toggle}
+  l: [QWRT]
+- p: [30, 28, 38]
+  k: {t: QWRT, h: toggle}
+  l: [sleep]
